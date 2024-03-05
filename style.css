@@ -1,0 +1,124 @@
+/* Set background color for the entire HTML page */
+html {
+    background-color: rgb(2, 142, 95);
+}
+
+/* Style for heading 1 (h1) */
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center; /* Center align the text */
+    margin: 0; /* Remove default margin */
+}
+
+/* Style for the main container */s
+.app {
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center;
+    visibility:'visible';
+    
+/* Center align child elements */
+}
+
+/* Style for the button group */
+.buttongroup {
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+    justify-content: center; /* Center align buttons */
+}
+
+/* Style for the iPhone image */
+.iphone {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.a {
+    border: 20px solid #ddd;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+    visibility: visible; /* Maintain aspect ratio */
+}
+.b{
+    border: 20px solid #ddd;
+    border-radius: 50px;
+    padding: 10px;
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+    visibility: hidden; /* Maintain aspect ratio */
+}
+
+
+#oks {
+    position: relative; /* Change to relative positioning */
+    cursor: pointer;
+    width: 100%;
+    max-width: 150px; /* Set a max-width for the button */
+    height: auto; /* Make the button responsive */
+    margin: 20px 0; /* Adjusted margin for better spacing */
+    border: none;
+    transition: 0.5s;
+}
+.choose{
+    position: relative; /* Change to relative positioning */
+    cursor: pointer;
+    width: 50%;
+    max-width: 50px; /* Set a max-width for the button */
+    height: auto; /* Make the button responsive */
+    margin: 20px 0; /* Adjusted margin for better spacing */
+    border: none;
+    border-radius: 50%;
+font-size: 20px;
+}
+body {
+    background: #1488EA;
+}
+#card {
+    position: relative;
+    top: 110px;
+    width: 320px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+}#upper-side {
+    padding: 2em;
+    background-color: #8BC34A;
+    display: block;
+    color: #fff;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+#checkmark {
+    font-weight: lighter;
+    fill: #fff;
+    margin: -3.5em auto auto 20px;
+}
+#status {
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1em;
+    margin-top: -0.2em;
+    margin-bottom: 0;
+}
+#lower-side {
+    padding: 2em 2em 5em 2em;
+    background: #fff;
+    display: block;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+    
+    
+}
