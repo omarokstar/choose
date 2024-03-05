@@ -2,6 +2,7 @@ const b = document.querySelector("img.iphone");
 const d = document.querySelector("img.bread");
 b.addEventListener("mouseover", moveHover);
 d.addEventListener("click", trans);
+
 function moveHover() {
 
     var i = Math.floor(Math.random() * 100) + 1;
@@ -16,13 +17,10 @@ var randomChoice = Math.random() < 0.5 ? "left" : "right";
     document.querySelector('img.a').src="oks.jpeg"
 
 }
-function trans(){
-
+function trans() {
+   
         window.location.href = 'card.html';
-
-}
-
-
+    }
 
 
 

@@ -95,20 +95,21 @@ body {
     border-top-left-radius: 8px;
 }
 #checkmark {
-    font-weight: lighter;
+    font-weight: bolder;
     fill: #fff;
     margin: -3.5em auto auto 20px;
 }
 #status {
-    font-weight: lighter;
+    font-weight: bolder;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 1em;
+    font-size: 15px;
     margin-top: -0.2em;
     margin-bottom: 0;
 }
 #lower-side {
     padding: 2em 2em 5em 2em;
+    font-weight: bolder;
+   font-size: 15px;
     background: #fff;
     display: block;
     border-bottom-right-radius: 8px;
